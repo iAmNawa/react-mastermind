@@ -5,10 +5,12 @@
 # mastermind setup
 ```bash
 # use node 8 (optional preference)
-git clone
-
+git clone https://github.com/iAmNawa/react-mastermind
+cd react-mastermind
 npm i
 node server
+
+# navigate to localhost:4000
 ```
 
 # usage
