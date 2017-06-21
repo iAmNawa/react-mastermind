@@ -1,0 +1,62 @@
+@import 'colors'
+@import 'form'
+
+body
+  background url('images/wood5.png') repeat
+
+h1, h2
+  color $black
+  text-align center
+
+h1
+  padding 50px 0 0 0
+
+.red,.orange,.yellow,.green,.blue,.maroon,.black, .white, .transparent
+  position absolute
+  top 0
+  left 0
+  border-radius 50%
+
+.transparent
+  background-color none
+  border 1px solid $black
+
+.white
+  background-color rgba(240,240,240,.9)
+.black
+  background-color $black
+.red
+  background-color $red
+.orange
+  background-color $orange
+.yellow
+  background-color $yellow
+.green
+  background-color $green
+.blue
+  background-color $blue
+.maroon
+  background-color $maroon
+
+.circleWrapper
+  height 36px
+  width 36px
+  position relative
+
+.circleStats
+  float left
+  height 13px
+  width 13px
+
+.btn
+  cursor pointer
+
+.btn-outline-secondary
+  color $black
+  border-color $black
+  &:hover, &:active
+    background-color $black
+    border-color rgba(40,40,40,1)
+
+.form-control
+  background-color transparent
