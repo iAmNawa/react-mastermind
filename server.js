@@ -30,7 +30,7 @@ if (process.env.NODE_ENV !== 'production') // continuous rebundling on save
 
 /**
  * `fileChange()`
- * try to watch `paulsgame/src` for changes and call `build()` to rebuild js
+ * try to watch `react-mastermind/src` for changes and call `build()` to rebuild js
  */
 
 function fileChange (err, file) {
