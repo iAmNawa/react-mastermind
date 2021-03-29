@@ -1,7 +1,7 @@
 # rationale
 * minimal react without as much boilerplate
 * remove incidental configuration/complexity
-
+* need to fix submit button
 # mastermind setup
 ```bash
 # use node 8 (optional preference)
